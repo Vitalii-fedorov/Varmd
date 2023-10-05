@@ -5,11 +5,10 @@ const Header = () => {
         <div className="Header">
             <div className="topBar">
                 <div className="infoBar">
-                    <img src="/map.svg" alt='map' />
-                    Пошел нахуй
+                    <img className='locationImg' src="/map.svg" alt='map'/>
+                    <h1 className='locationText'> Morbi, India</h1>
                 </div>
                 <div className="mailBar">
-
                 </div>
             </div>
 
