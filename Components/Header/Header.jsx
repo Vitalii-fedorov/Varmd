@@ -6,6 +6,7 @@ const Header = () => {
             <div className="topBar">
                 <div className="infoBar">
                     <img src="/map.svg" alt='map' />
+                    Пошел нахуй
                 </div>
                 <div className="mailBar">
 
