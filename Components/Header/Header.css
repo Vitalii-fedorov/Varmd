@@ -12,7 +12,7 @@ a{
 
 .container{
     max-width: 1660px;
-    margin: 0 auto;
+    margin: 0 7%;
 }
 
 
@@ -72,6 +72,7 @@ a{
     font-family: Enriqueta, sans-serif;
     font-size: 38px;
     color: black;
+    font-weight: 700;
 }
 
 .logoText{
