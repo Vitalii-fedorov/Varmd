@@ -22,7 +22,6 @@ export default function Home() {
       </div>
 
 
-
       <div className="services">
         <h1>Our Services</h1>
         <div className="bannerList">
@@ -56,6 +55,10 @@ export default function Home() {
         </div>
       </div>
       </div>
+
+
+
+
 
     </div>
   );
