@@ -1,3 +1,15 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}   
+
 .container{
     max-width: 1660px;
     margin: 0 auto;
@@ -6,12 +18,22 @@
 
 .Header{
     max-width: 100%;
-    background-color: #30373F;
+}
+
+.bgTop{
+    background-color:#30373F;
+}
+
+.topBar{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .infoBar{
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
 
 .locationText{
@@ -19,5 +41,61 @@
     font-weight: 500;
     line-height: 20px;
     color: white;
-    margin-left: 5px;
+    margin-left: 10px;
+}
+
+.mailBar{
+    display: flex;
+}
+
+.calImg{
+    margin-left: 28px;
+}
+
+.mailText{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: white;
+    margin-left: 10px;
+    padding-top: 1px;
+}
+
+.navBar{
+    height: 93px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 13px;
+}
+
+.logo{
+    font-family: Enriqueta, sans-serif;
+    font-size: 38px;
+    color: black;
+}
+
+.logoText{
+    font-family: Enriqueta, sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+    list-style: none;
+    gap: 33px;
 }
