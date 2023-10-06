@@ -46,7 +46,7 @@ export default function Home() {
           <img src="/freight-forwarding.svg" alt="Freight Forwarding" />
           <h2>Freight Forwarding</h2>
           <p>Таможенное оформление и доставка</p>
-          Подробнее
+          Подробнееd
         </div>
       </div>
     </div>
