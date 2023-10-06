@@ -1,44 +1,28 @@
-
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap column;
+}
 .tiles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 100%;
-    position: absolute;
+    height: 57.5em;
     background-image: url('/bg-tiles.png');
     background-size: cover;
 }
 .tiles::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    background-color: rgba(48,55,63, 0.6);
-    z-index: 3;
-}
-.tiles {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-image: url('/bg-tiles.png');
-}
-
-.tiles::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    height: 57.5em;
     background-color: rgba(48,55,63, 0.6);
     z-index: 3;
 }
 
 .tiles__text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     z-index: 4;
     width: 54%;
