@@ -3,7 +3,6 @@ import './page.css'
 export default function Home() {
   return (
     <div className="test">
-
       <div className="tiles">
         <div className="tiles__text">
           <h1 className="tiles__text1">-WELCOME TO VARMD TILES-</h1>
@@ -18,10 +17,6 @@ export default function Home() {
                 <li className='mt'>Logistic Support</li>
               </ul>
             </div>
-        </div>
-      </div>
-
-
       <div className="services">
 <h1>Our Services</h1>
         <div className="banner">

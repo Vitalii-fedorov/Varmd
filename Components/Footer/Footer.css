@@ -1,0 +1,61 @@
+.Footer{
+    background-image: url('/footerbg.png');
+    background-size: cover;
+    background-color: #30373F;
+    opacity: 75%;
+    width: 100%;
+}
+
+.footerFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 16%;
+}
+
+.footerLogo{
+    font-family: Enriqueta, sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 50px;
+    color: white;
+    margin-top: 79px;
+}
+
+.footerTextlogo{
+    font-family: Enriqueta, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    margin-top: -3px;
+}
+
+.ftMail{
+    margin-top: 90px;
+    border-bottom: 1px rgb(255, 255, 255, 0.5) solid;
+}
+
+.email{
+    width: 626px;
+    height: 43px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: Plus Jakarta Sans, sans-serif;
+    color: white;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.email::placeholder{
+    font-family: Plus Jakarta Sans, sans-serif;
+    color: white;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.button{
+    background: transparent;
+    border: none;
+}
