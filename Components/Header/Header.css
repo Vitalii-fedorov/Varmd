@@ -12,7 +12,7 @@ a{
 
 .container{
     max-width: 1660px;
-    margin: 0 auto;
+    margin: 0 7%;
 }
 
 .Header{
@@ -71,6 +71,7 @@ a{
     font-family: Enriqueta, sans-serif;
     font-size: 2.375em;
     color: black;
+    font-weight: 700;
 }
 
 .logoText{
