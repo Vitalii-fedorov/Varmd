@@ -8,7 +8,6 @@ export default function Home() {
           <h1 className="tiles__text1">-WELCOME TO VARMD TILES-</h1>
             <p className="tiles__text2">SECURE YOUR TILE SUPPLIES,
              WITH VARMD</p>
-
             <div className="tiles__text3">
               <ul className='column'>
                 <li>Ceramic Tiles</li>
@@ -17,7 +16,6 @@ export default function Home() {
                 <li className='mt'>Logistic Support</li>
               </ul>
             </div>
-
         </div>
       </div>
     </div>
