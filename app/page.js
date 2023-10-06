@@ -6,21 +6,21 @@ export default function Home() {
       <div className="tiles">
         <span className="tiles__text">
           <span className="tiles__text1">-WELCOME TO VARMD TILES-</span>
-          <p>
+          <p />
             <span className="tiles__text2">SECURE YOUR TILE SUPPLIES,
-              <br /> WITH VARMD</span>
-            <br />
-            <span className="tiles__text3">• Ceramic Tiles
-            <br />
-            • Porcelain Tiles
-            <br />
-            • Quality Control
-            <br />
-              • Logistic Support</span>
-          </p>
+             WITH VARMD</span>
+
+            <div className="tiles__text3">
+              <ul>
+              <li>Ceramic Tiles</li>
+                <li>Porcelain Tiles</li></ul>
+                <ul><li>Quality Control</li>
+                  <li>Logistic Support</li></ul>
+
+            </div>
+
         </span>
       </div>
-
     </div>
   );
 }
