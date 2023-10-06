@@ -22,7 +22,7 @@ export default function Home() {
       </div>
 
 
-      <div className="services container">
+      <div className="services">
 <h1>Our Services</h1>
         <div className="banner">
           <img src="/product-sourcing.svg" alt="Product Sourcing" />
