@@ -12,7 +12,8 @@ const Footer = () => {
                     <input className='email' name='last_name' type="email" placeholder='Your Email Address'/>
                     <button className='button' type='button'><img src="/sendmail.svg" alt="mail" /></button>
                 </form> 
-            </div>     
+            </div>   
+            <h1></h1>  
         </div>
     );
 }
