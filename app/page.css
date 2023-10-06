@@ -73,3 +73,76 @@
 .mt{
     margin-top: 20px;
 }
+
+.services {
+    background-image: url('/page-bg.png');
+    background-size: cover;
+    width: 100%;
+    padding-left: 6.75%;
+    padding-right: 6.75%;
+    padding-top: 9rem;
+    padding-bottom: 6.25rem;
+}
+.services h1 {
+    height: 8.5rem;
+    color: #30373F;
+    font-family: Plus Jakarta Sans;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5.32px;
+    border-bottom: 2px solid rgba(48, 55, 63, 0.50);
+    stroke: rgba(48, 55, 63, 0.50);
+}
+.bannerList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 4rem;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #30373F;
+    border-radius: 5px;
+    background: #F5F5F5;
+    width: 23.48%;
+    height: 45.75rem;
+    padding: 2em 1em 2em 2em;
+}
+.banner img {
+    width: 6.25em;
+    height: 6.25em;
+}
+.banner p {
+    color: #616161;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.52px;
+    margin-top: 1rem;
+}
+.banner h2 {
+    color: #30373F;
+    font-family: Plus Jakarta Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.47px;
+    margin-top: 3.0625rem;
+}
+.banner a {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.28px;
+}
