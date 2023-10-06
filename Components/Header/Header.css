@@ -1,9 +1,12 @@
+.container{
+    max-width: 1660px;
+    margin: 0 auto;
+}
+
 
 .Header{
+    max-width: 100%;
     background-color: #30373F;
-    position: absolute;
-    width: 100%;
-    z-index: 2;
 }
 
 .infoBar{
