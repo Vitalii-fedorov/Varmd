@@ -14,3 +14,28 @@
     line-height: normal;
     letter-spacing: 5.7px;
 }
+.products {
+    background-image: url('/productsbg.png');
+    background-size: cover;
+    width: 100%;
+}
+.products h1 {
+    color: #30373F;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 5.7px;
+}
+.products h4 {
+    color: #616161;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.85px;
+}
