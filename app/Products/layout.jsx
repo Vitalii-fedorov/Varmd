@@ -1,6 +1,11 @@
+"use client"
 import "./product.css"
+import Link from "next/link";
+import React from "react";
 
 export default function ProductsLayout({ children }) {
+
+
     return (
 
             <div>
@@ -11,10 +16,18 @@ export default function ProductsLayout({ children }) {
             <div className="products">
                 <h1>Explore a wide range of
                     <br/>Quality Assured products</h1>
+                <br/><br/>
                 <h4>Hand-picked collections of our indoor & outdoor tiles, carefully sourced from
                     <br/>high-tech manufacturers.</h4>
-            </div>
-                {children}
+                    <br/><br/>
+
+                <div className="products-navigation">
+                    <Link href={"/Products"}>Marble Look</Link>
+                    <Link href={"/Products/StoneLook"}>Stone Look</Link>
+                    <Link href={"/Products/CementLook"}>Cement Look</Link>
+                </div>
+
+                {children}</div>
             </div>
 
     );
