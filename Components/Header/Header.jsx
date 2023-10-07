@@ -1,4 +1,5 @@
 import './Header.css'
+import Link from "next/link";
 
 const Header = () => {
     return (
@@ -18,22 +19,21 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-            </div>    
-
+            </div>
             <div className="navBar">
                     <div className="container">
                         <div className="flex">
                             <div className="flexLogo">
-                                <a href='#' className="logo">Varmd</a>
+                                <Link href={'/'} className="logo">Varmd</Link>
                                 <p className="logoText">Uncomplicated & Transparent</p>
                             </div>
                             <nav className="headerMenu">
                                 <ul className="menuList">
-                                    <li className="menuItem"><a href="#" className="menu_link">Home</a></li>
-                                    <li className="menuItem"><a href="#" className="menu_link">About Us</a></li>
-                                    <li className="menuItem"><a href="#" className="menu_link">Products</a></li>
-                                    <li className="menuItem"><a href="#" className="menu_link">Services</a></li>
-                                    <li className="menuItem"><a href="#" className="menu_link">Contact Us</a></li>
+                                    <li className="menuItem"><Link href={"/"} className="menu_link">Home</Link></li>
+                                    <li className="menuItem"><Link href={"/AboutUs"} className="menu_link">About Us</Link></li>
+                                    <li className="menuItem"><Link href={"/Products"} className="menu_link">Products</Link></li>
+                                    <li className="menuItem"><Link href={"/Services"} className="menu_link">Services</Link></li>
+                                    <li className="menuItem"><Link href={"/ContactUs"} className="menu_link">Contact Us</Link></li>
                                 </ul>
                             </nav> 
                         </div>    
