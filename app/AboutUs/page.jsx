@@ -1,8 +1,10 @@
-
+import "./aboutUs.css"
 
 const AboutUs = () => {
     return(<div>
-            About Us
+            <div className="header-sec">
+                About Us
+            </div>
         </div>
     );
 }

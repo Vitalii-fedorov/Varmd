@@ -1,8 +1,10 @@
-
+import "./services.css"
 
 const Services = () => {
     return(<div>
-            About Us
+            <div className="header-sec">
+                Services
+            </div>
         </div>
     );
 }

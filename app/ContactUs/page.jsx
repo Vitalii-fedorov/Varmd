@@ -1,8 +1,10 @@
-
+import "./contactUs.css"
 
 const ContactUs = () => {
     return(<div>
-            About Us
+            <div className="header-sec">
+                Contact Us
+            </div>
         </div>
     );
 }
