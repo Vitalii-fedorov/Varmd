@@ -146,10 +146,31 @@
     margin-left: 6.75%;
 }
 .ml-white-tile,.ml-beige-tile, .ml-grey-tile, .ml-black-tile, .ml-green-tile {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .ml-white-tile img, .ml-beige-tile img, .ml-grey-tile img, .ml-black-tile img, .ml-green-tile img {
-    width: 21.25rem;
-    height: 24.375rem;
-    clip-path: polygon(0 25%, 49% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    position: relative;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+}
+.ml-white-tile span,.ml-beige-tile span, .ml-grey-tile span, .ml-black-tile span, .ml-green-tile span {
+    margin-top: 1.9rem;
+    color: #30373F;
+    font-family: Plus Jakarta Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.47px;
+}
+.ml-white-tile p,.ml-beige-tile p, .ml-grey-tile p, .ml-black-tile p, .ml-green-tile p {
+    color: #616161;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.9px;
+    margin-top: 0.75rem;
 }

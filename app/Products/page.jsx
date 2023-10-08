@@ -38,16 +38,43 @@ const Products = () => {
                 <h1>Marble Look - White</h1>
                 <div className="ml-white-tiles">
                     <div className="ml-white-tile">
-                        <img src="/tanzania.png" alt="tanzania"/>
+                        <img src="/polygon.png" alt="tanzania" style={{backgroundImage: "url('/tanzania.png')"}}/>
+                            <span>
+                            Polished & Matt
+                            </span>
+                            <p>
+                                Tanzania White
+                            </p>
                     </div>
                     <div className="ml-white-tile">
-                        <img src="/bianco.png" alt="bianco"/>
+                        <img src="/polygon.png" alt="bianco" style={{backgroundImage: "url('/bianco.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Smoky Bianco
+                        </p>
+
                     </div>
                     <div className="ml-white-tile">
-                        <img src="/jaguar.png" alt="jaguar"/>
+                        <img src="/polygon.png" alt="jaguar" style={{backgroundImage: "url('/jaguar.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Jaguar White
+                        </p>
+
                     </div>
                     <div className="ml-white-tile">
-                        <img src="/statuary.png" alt="statuary"/>
+                        <img src="/polygon.png" alt="statuary" style={{backgroundImage: "url('/statuary.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Platinum Statuary
+                        </p>
+
                     </div>
                 </div>
             </div>
@@ -56,16 +83,44 @@ const Products = () => {
                 <h1>Marble Look - Beige</h1>
                 <div className="ml-beige-tiles">
                     <div className="ml-beige-tile">
-                        <img src="/tanzania.png" alt="tanzania"/>
+                        <img src="/polygon.png" alt="tanzania" style={{backgroundImage: "url('/ivory.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Bottocino Ivory
+                        </p>
+
                     </div>
                     <div className="ml-beige-tile">
-                        <img src="/bianco.png" alt="bianco"/>
+                        <img src="/polygon.png" alt="bianco" style={{backgroundImage: "url('/crema.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Neptune Crema
+                        </p>
+
                     </div>
                     <div className="ml-beige-tile">
-                        <img src="/jaguar.png" alt="jaguar"/>
+                        <img src="/polygon.png" alt="jaguar" style={{backgroundImage: "url('/emperador.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Emperador Beige
+                        </p>
+
                     </div>
                     <div className="ml-beige-tile">
-                        <img src="/statuary.png" alt="statuary"/>
+                        <img src="/polygon.png" alt="statuary" style={{backgroundImage: "url('/venecia.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Venecia Beige
+                        </p>
+
                     </div>
                 </div>
             </div>
@@ -74,16 +129,44 @@ const Products = () => {
                 <h1>Marble Look - Grey</h1>
                 <div className="ml-grey-tiles">
                     <div className="ml-grey-tile">
-                        <img src="/tanzania.png" alt="tanzania"/>
+                        <img src="/polygon.png" alt="tanzania" style={{backgroundImage: "url('/verde.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Absolute Verde
+                        </p>
+
                     </div>
                     <div className="ml-grey-tile">
-                        <img src="/bianco.png" alt="bianco"/>
+                        <img src="/polygon.png" alt="bianco" style={{backgroundImage: "url('/gris.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Empera Gris
+                        </p>
+
                     </div>
                     <div className="ml-grey-tile">
-                        <img src="/jaguar.png" alt="jaguar"/>
+                        <img src="/polygon.png" alt="jaguar" style={{backgroundImage: "url('/pulpis.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Pulpis Natural
+                        </p>
+
                     </div>
                     <div className="ml-grey-tile">
-                        <img src="/statuary.png" alt="statuary"/>
+                        <img src="/polygon.png" alt="statuary" style={{backgroundImage: "url('/luca.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Luca Grey
+                        </p>
+
                     </div>
                 </div>
             </div>
@@ -92,16 +175,44 @@ const Products = () => {
                 <h1>Marble Look - Black</h1>
                 <div className="ml-black-tiles">
                     <div className="ml-black-tile">
-                        <img src="/tanzania.png" alt="tanzania"/>
+                        <img src="/polygon.png" alt="tanzania" style={{backgroundImage: "url('/empera.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Empera Black
+                        </p>
+
                     </div>
                     <div className="ml-black-tile">
-                        <img src="/bianco.png" alt="bianco"/>
+                        <img src="/polygon.png" alt="bianco" style={{backgroundImage: "url('/nero.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Nero Marquina SV
+                        </p>
+
                     </div>
                     <div className="ml-black-tile">
-                        <img src="/jaguar.png" alt="jaguar"/>
+                        <img src="/polygon.png" alt="jaguar" style={{backgroundImage: "url('/lauren.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Saint Laurent
+                        </p>
+
                     </div>
                     <div className="ml-black-tile">
-                        <img src="/statuary.png" alt="statuary"/>
+                        <img src="/polygon.png" alt="statuary" style={{backgroundImage: "url('/poral.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Poral Black
+                        </p>
+
                     </div>
                 </div>
             </div>
@@ -110,7 +221,13 @@ const Products = () => {
                 <h1>Marble Look - Green</h1>
                 <div className="ml-green-tiles">
                     <div className="ml-green-tile">
-                        <img src="/tanzania.png" alt="tanzania"/>
+                        <img src="/polygon.png" alt="tanzania" style={{backgroundImage: "url('/emerald.png')"}}/>
+                        <span>
+                            Polished & Matt
+                            </span>
+                        <p>
+                            Emerald Green
+                        </p>
                     </div>
                 </div>
             </div>
