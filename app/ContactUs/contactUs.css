@@ -17,6 +17,14 @@
 .contacts {
 
 }
+.topLine {
+    display: flex;
+    align-items: center;
+}
+.topLine img {
+    width: 37px;
+    height: 2px;
+}
 .contacts h5 {
     color: #E6AF5D;
     font-family: Plus Jakarta Sans;
