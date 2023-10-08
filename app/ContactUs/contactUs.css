@@ -15,7 +15,14 @@
     letter-spacing: 5.7px;
 }
 .contacts {
-
+    display: flex;
+    justify-content: space-between;
+    background-image: url('/contactbg.png');
+    padding: 9.5rem 0 0 6.75%;
+}
+.contacts-bar {
+    width: 38.75rem;
+    padding-bottom: 7.25rem;
 }
 .topLine {
     display: flex;
@@ -25,20 +32,91 @@
     width: 37px;
     height: 2px;
 }
-.contacts h5 {
+.contacts-bar h5 {
     color: #E6AF5D;
     font-family: Plus Jakarta Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px; /* 157.143% */
+    line-height: 22px; 
     letter-spacing: 1px;
 }
-.contacts h1 {
+.contacts-bar h1 {
     color: #30373F;
     font-family: Plus Jakarta Sans;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: 56px;
+    margin-top: 0.5rem;
+}
+.contacts-bar h6 {
+    margin-top: 2rem;
+    color: #616161;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.contacts-bar span {
+    color: #30373F;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.contacts-bar p {
+    color: #616161;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(48, 55, 63, 0.5);
+    width: 38.75rem;
+}
+.sec-merged-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+}
+.sec-merged-1 img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.sec-merged-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.75rem;
+
+}
+.sec-merged-2 img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.sec-merged-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.75rem;
+
+}
+.sec-merged-3 img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+iframe {
+    width: 56.9rem;
+    height: 38rem;
 }
