@@ -1,4 +1,3 @@
-"use client"
 import "./product.css"
 import Link from "next/link";
 import React from "react";

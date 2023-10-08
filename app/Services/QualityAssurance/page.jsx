@@ -1,11 +1,12 @@
-import "./services.css"
+import "./QualityAssurance.css"
 
-const Services = () => {
-    return(<div>
+const QualityAssurance = () => {
+    return(
+        <div>
 
             <div className="services-main">
-            <img src="/man-holding.png" alt="man-holding"/>
-        </div>
+                <img src="/man-holding.png" alt="man-holding"/>
+            </div>
 
             <div className="sourcing">
                 <h1>Product Sourcing</h1>
@@ -32,8 +33,8 @@ to all leading ports across the globe in a protected and momentary manner.</p>
                 </span>
             </div>
 
-    </div>
+        </div>
     );
 }
 
-export default Services
+export default QualityAssurance

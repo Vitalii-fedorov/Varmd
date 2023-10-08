@@ -14,3 +14,83 @@
     line-height: normal;
     letter-spacing: 5.7px;
 }
+.services {
+    background-image: url('/productsbg.png');
+    background-size: cover;
+    width: 100%;
+    padding: 6.25rem 0;
+}
+.services-headline {
+    color: #30373F;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 5.7px;
+}
+.services-footline {
+    color: #616161;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.85px;
+}
+.services-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3.25rem 0;
+    gap: 2.375rem;
+}
+
+.services-navigation a {
+    color: #616161;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.8px;
+    border-bottom: 1px solid rgba(48, 55, 63, 0.56);
+    padding: 3rem 0 0;
+}
+.services-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 10.5rem;
+}
+.services-main img {
+
+}
+.sourcing h1 {
+    width: 86.5%;
+    height: 5rem;
+    color: #30373F;
+    font-family: Plus Jakarta Sans;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5.5px;
+    margin: 5rem 6.75% 3rem;
+}
+.sourcing span {
+    display: block;
+    width: 86%;
+    color: #616161;
+    text-align: left;
+    font-family: Plus Jakarta Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.47px;
+    margin-left: 7%;
+}

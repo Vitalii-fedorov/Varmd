@@ -71,7 +71,7 @@ export default function Home() {
               <div className="collection-bar-info">
               <div className="collection-bar-info-wrapper"><h2>INDOOR-PORCELAIN TILES</h2>​
                 <h5>Porcelain Tiles suitable for indoor wall & floors with</h5> ​<h4>Water absorption &lt;0.5%</h4> ​​<h5> In various sizes (cm) <br/><br/>30x60, 60x60, 60x120 <br/><br/>80x80, 80x160, 120x120 <br/><br/><br/>Surface options <br/><br/>Polished, Matt, High Gloss, Anti-skid, Carving & Sugar.</h5></div>
-              <a href="#">browse collection ></a>
+              <a href="#">browse collection &#62;</a>
               </div>
             </div>
             <div className="collection-bar">
@@ -85,7 +85,7 @@ export default function Home() {
                 <br/><br/>
                 <h5>Subway or Metro tiles, with</h5><br/> <h4>Water absorption &lt;15%</h4>  <br/><br/><h5>In various sizes (cm) <br/><br/>10x20, 10x30, 10x40 <br/><br/>7.5x30, 20x20  <br/><br/><br/>Various colors and shapes.</h5>
               </div>
-                <a href="#">browse collection ></a>
+                <a href="#">browse collection &#62;</a>
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function Home() {
               <br/>​
               <h5>Wood effect</h5><span> (pressed)</span> <br/><br/><h5>porcelain tiles suitable for <br/><br/>indoor walls & floors, with</h5> <br/><h4>Water absorption &lt;0.5%</h4> <br/><br/> <h5>In 2 sizes (cm) <br/><br/>20x120, 30x120  <br/><br/><br/>Surface options <br/><br/>Matt, Textured.</h5>
             </div>
-              <a href="#">browse collection ></a>
+              <a href="#">browse collection &#62;</a>
             </div>
           </div>
           <div className="collection-bar">

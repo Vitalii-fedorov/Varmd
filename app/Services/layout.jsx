@@ -1,27 +1,27 @@
-"use client"
-import "./product.css"
 import Link from "next/link";
 import React from "react";
+import "./services.css"
 
-export default function ProductsLayout({ children }) {
+export default function ServicesLayout({ children }) {
     return (
         <div>
             <div className="header-sec">
-                Products
+                Services
             </div>
 
-            <div className="products">
-                <h1 className="products-headline">Explore a wide range of
-                    <br/>Quality Assured products</h1>
+            <div className="services">
+                <h1 className="services-headline">Quality Tiles, Exceptional Service
+                    <br/></h1>
                 <br/><br/>
-                <h4 className="products-footline">Hand-picked collections of our indoor & outdoor tiles, carefully sourced from
+                <h4 className="services-footline">Hand-picked collections of our indoor & outdoor tiles, carefully sourced from
                     <br/>high-tech manufacturers.</h4>
                 <br/><br/>
 
-                <div className="products-navigation">
-                    <Link href={"/Products"}>Marble Look</Link>
-                    <Link href={"/Products/StoneLook"}>Stone Look</Link>
-                    <Link href={"/Products/CementLook"}>Cement Look</Link>
+                <div className="services-navigation">
+                    <Link href={"/Services"}>Product Sourcing</Link>
+                    <Link href={"/Services/OEMOperation"}>OEM Operation</Link>
+                    <Link href={"/Services/QualityAssurance"}>Quality Assurance</Link>
+                    <Link href={"/Services/FreightForwarding"}>Freight Forwarding</Link>
                 </div>
 
                 {children}</div>
