@@ -6,7 +6,11 @@ const ContactUs = () => {
                 Contact Us
             </div>
 
-            <img src="/dash.png" alt="dash"/>
+            <div className="contacts">
+                <img src="/dash.png" alt="dash"/>
+                <h5>OUR CONTACTS</h5>
+                <h1>Get In Touch With Us</h1>
+            </div>
 
         </div>
     );

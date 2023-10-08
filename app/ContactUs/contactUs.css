@@ -8,10 +8,29 @@
     background-image: url('/marblebg3.png');
     color: #30373F;
     font-family: Plus Jakarta Sans;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 5.7px;
 }
+.contacts {
 
+}
+.contacts h5 {
+    color: #E6AF5D;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 1px;
+}
+.contacts h1 {
+    olor: #30373F;
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+}
