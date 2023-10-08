@@ -20,7 +20,7 @@
     width: 100%;
     padding: 6.25rem 0;
 }
-.products h1 {
+.products-headline {
     color: #30373F;
     text-align: center;
     font-family: Plus Jakarta Sans;
@@ -30,7 +30,7 @@
     line-height: normal;
     letter-spacing: 5.7px;
 }
-.products h4 {
+.products-footline {
     color: #616161;
     text-align: center;
     font-family: Plus Jakarta Sans;
@@ -77,7 +77,7 @@
     flex-direction: column;
     text-align: center;
     width: 39rem;
-    height: 35.6875rem;
+
 }
 .marbletiles p {
     color: #616161;
@@ -99,6 +99,9 @@
     letter-spacing: 5.7px;
 }
 .formats {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     color: #30373F;
     font-family: Plus Jakarta Sans;
     font-size: 40px;
@@ -107,4 +110,46 @@
     line-height: normal;
     letter-spacing: 3.8px;
     align-self: center;
+}
+
+.format {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 14.815rem;
+    margin-left: 32%;
+}
+
+.format img {
+    width: 0.85rem;
+    height: 0.85rem;
+    margin-right: 1rem;
+}
+
+.ml-white h1, .ml-beige h1, .ml-grey h1, .ml-black h1, .ml-green h1 {
+    width: 86.5%;
+    height: 5rem;
+    color: #E6AF5D;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.8px;
+    border-bottom: 2px solid rgba(48, 55, 63, 0.50);
+    margin: 7.6875rem 6.75% 3rem;
+}
+.ml-white-tiles, .ml-beige-tiles, .ml-grey-tiles, .ml-black-tiles, .ml-green-tiles {
+    display: flex;
+    justify-content: space-between;
+    width: 86.5%;
+    margin-left: 6.75%;
+}
+.ml-white-tile,.ml-beige-tile, .ml-grey-tile, .ml-black-tile, .ml-green-tile {
+
+}
+.ml-white-tile img, .ml-beige-tile img, .ml-grey-tile img, .ml-black-tile img, .ml-green-tile img {
+    width: 21.25rem;
+    height: 24.375rem;
+    clip-path: polygon(0 25%, 49% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
 }

@@ -4,20 +4,17 @@ import Link from "next/link";
 import React from "react";
 
 export default function ProductsLayout({ children }) {
-
-
     return (
-
             <div>
                 <div className="header-sec">
             Products
             </div>
 
             <div className="products">
-                <h1>Explore a wide range of
+                <h1 className="products-headline">Explore a wide range of
                     <br/>Quality Assured products</h1>
                 <br/><br/>
-                <h4>Hand-picked collections of our indoor & outdoor tiles, carefully sourced from
+                <h4 className="products-footline">Hand-picked collections of our indoor & outdoor tiles, carefully sourced from
                     <br/>high-tech manufacturers.</h4>
                     <br/><br/>
 
@@ -29,6 +26,5 @@ export default function ProductsLayout({ children }) {
 
                 {children}</div>
             </div>
-
     );
 }
