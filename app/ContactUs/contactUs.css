@@ -120,3 +120,6 @@ iframe {
     width: 56.9rem;
     height: 38rem;
 }
+.contactsForm {
+    background-image: url('/formbg.png');
+}
