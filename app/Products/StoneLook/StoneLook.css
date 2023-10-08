@@ -8,7 +8,7 @@
     background-image: url('/marblebg3.png');
     color: #30373F;
     font-family: Plus Jakarta Sans;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -24,7 +24,7 @@
     color: #30373F;
     text-align: center;
     font-family: Plus Jakarta Sans;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -34,7 +34,7 @@
     color: #616161;
     text-align: center;
     font-family: Plus Jakarta Sans;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -52,7 +52,7 @@
     color: #616161;
     text-align: center;
     font-family: Plus Jakarta Sans;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -81,7 +81,7 @@
 .marbletiles p {
     color: #616161;
     font-family: Plus Jakarta Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -91,7 +91,7 @@
     color: #E6AF5D;
     text-align: center;
     font-family: Plus Jakarta Sans;
-    font-size: 56px;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -103,7 +103,7 @@
     text-align: center;
     color: #30373F;
     font-family: Plus Jakarta Sans;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -114,7 +114,7 @@
 .format {
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 0.625rem;
     width: 14.815rem;
     margin-left: 32%;
 }
@@ -130,7 +130,7 @@
     height: 5rem;
     color: #E6AF5D;
     font-family: Plus Jakarta Sans;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -157,7 +157,7 @@
     margin-top: 1.9rem;
     color: #30373F;
     font-family: Plus Jakarta Sans;
-    font-size: 26px;
+    font-size: 1.625rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -166,7 +166,7 @@
 .ml-white-tile p,.ml-beige-tile p, .ml-grey-tile p, .ml-black-tile p, .ml-green-tile p {
     color: #616161;
     font-family: Plus Jakarta Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
