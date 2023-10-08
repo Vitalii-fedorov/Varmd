@@ -5,6 +5,9 @@ const ContactUs = () => {
             <div className="header-sec">
                 Contact Us
             </div>
+
+            &mdash;&mdash;
+
         </div>
     );
 }

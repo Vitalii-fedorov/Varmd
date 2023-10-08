@@ -94,6 +94,7 @@
     letter-spacing: 5.32px;
     border-bottom: 2px solid rgba(48, 55, 63, 0.50);
     stroke: rgba(48, 55, 63, 0.50);
+    width: 100%;
 }
 .bannerList {
     display: flex;
