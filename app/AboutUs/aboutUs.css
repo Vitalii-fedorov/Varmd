@@ -14,3 +14,182 @@
     line-height: normal;
     letter-spacing: 5.7px;
 }
+
+.aboutbg{
+    background-image: url('/aboutbg.png');
+}
+
+.video-player{
+    width: 787px;
+    height: 765px;
+    border-radius: 30px 5px 30px 5px;
+    border: 2px #30373F solid;
+}
+
+.aboutText{
+    margin-left: 116px;
+}
+
+.mainText{
+    color: #30373F;
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.85px;
+}
+
+.subText{
+    color: #616161;
+    font-family: Plus Jakarta Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.9px;
+    margin-top: 30px;
+}
+
+.aboutPhoto{
+    width: 403px;
+    height: 279px;
+    flex-shrink: 0;
+    float: right;
+    margin-top: 40px;
+}
+
+.secondText{
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.47px;
+    margin-top: 73px;
+}
+
+.thirdText{
+    color: #616161;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 1.9px;
+    margin-top: 20px;
+}
+
+.exploreAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6.8rem;
+    width: 100%;
+    height: 12rem;
+    border-bottom: 1px solid rgba(48, 55, 63, 0.50);
+    stroke: rgba(48, 55, 63, 0.50);
+}
+
+.coreText{
+    color: #E6AF5D;
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.09px;
+}
+
+.empText{
+    color: #30373F;
+    font-family: Plus Jakarta Sans;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5.32px;
+}
+
+.empowering {
+    background-image: '/aboutbg.png';
+    background-size: cover;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.bannerListAbout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.bannerAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #30373F;
+    border-radius: 5px;
+    background: #F5F5F5;
+    width: 390px;
+    height: 1000px;
+    padding: 2em 1em 2em 2em;
+}
+
+.bannerTitle{
+    color: #E6AF5D;
+    font-family: Plus Jakarta Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.47px;
+}
+
+.bannerText{
+    margin-top: 86px;
+    color: #616161;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 1.52px;
+}
+
+.marker{
+    margin-left: 25px;
+}
+
+.certImg{
+    width: 458px;
+    height: 647px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.certISO{
+    margin-left: 200px;
+}
+
+.certTitle{
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5.7px;
+}
+
+.certText{
+    margin-top: 30px;
+    color: #616161;
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.85px;
+}
