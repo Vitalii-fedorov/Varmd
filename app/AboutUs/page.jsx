@@ -15,7 +15,7 @@ const AboutUs = () => {
                                 </video>
                                 </div>
                             </div>
-                            <div className="aboutText">
+                            <div className="aboutpageText">
                                 <h2 className="mainText">Founded in 2017, Varmd is a family owned small-medium enterprise devoted solely to the Indian Tiles Industries </h2>
                                 <p className="subText">We are dedicated to sourcing a verity of ceramic & porcelain tiles & provide Quality Control Services to off shore clients from  India. </p>
                                 <img className="aboutPhoto" src="/textphoto.png" alt="photo" />

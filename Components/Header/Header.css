@@ -23,7 +23,7 @@ a{
 }
 
 .topBar{
-    height: 3.43em;
+    height: 3.43rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,11 +35,11 @@ a{
 }
 
 .locationText{
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 1.25em;
+    line-height: 1.25rem;
     color: white;
-    margin-left: 0.625em;
+    margin-left: 0.625rem;
 }
 
 .mailBar{
@@ -47,38 +47,38 @@ a{
 }
 
 .calImg{
-    margin-left: 1.75em;
+    margin-left: 1.75rem;
 }
 
 .mailText{
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 1.25em;
+    line-height: 1.25rem;
     color: white;
-    margin-left: 0.625em;
+    margin-left: 0.625rem;
     padding-top: 1px;
 }
 
 .navBar{
-    height: 5.81em;
+    height: 5.81rem;
     align-items: center;
     justify-content: space-between;
-    padding-top: 0.8125em;
+    padding-top: 0.8125rem;
 }
 
 .logo{
     font-family: Enriqueta, sans-serif;
-    font-size: 2.375em;
+    font-size: 2.375rem;
     color: black;
     font-weight: 700;
 }
 
 .logoText{
     font-family: Enriqueta, sans-serif;
-    font-size: 0.875em;
+    font-size: 0.875rem;
     color: black;
     font-weight: 400;
-    margin-top: -0.3125em;
+    margin-top: -0.3125rem;
 }
 
 .flex{
@@ -93,8 +93,8 @@ a{
     align-items: center;
     font-family: Plus Jakarta Sans, sans-serif;
     font-weight: 600;
-    font-size: 1.375em;
+    font-size: 1.375rem;
     color: black;
     list-style: none;
-    gap: 2.06em;
+    gap: 2.06rem;
 }
