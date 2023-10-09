@@ -29,51 +29,51 @@
     align-items: center;
 }
 .topLine img {
-    width: 37px;
+    width: 2.3125rem;
     height: 2px;
 }
 .contacts-bar h5 {
     color: #E6AF5D;
     font-family: Plus Jakarta Sans;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px; 
+    line-height: 1.375rem;
     letter-spacing: 1px;
 }
 .contacts-bar h1 {
     color: #30373F;
     font-family: Plus Jakarta Sans;
-    font-size: 48px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 56px;
+    line-height: 3.5rem;
     margin-top: 0.5rem;
 }
 .contacts-bar h6 {
     margin-top: 2rem;
     color: #616161;
     font-family: Plus Jakarta Sans;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 2rem;
 }
 .contacts-bar span {
     color: #30373F;
     font-family: Plus Jakarta Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 1.75rem;
 }
 .contacts-bar p {
     color: #616161;
     font-family: Plus Jakarta Sans;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid rgba(48, 55, 63, 0.5);
@@ -133,19 +133,19 @@ iframe {
 .contactsForm-form h2 {
     color: #30373F;
     font-family: Plus Jakarta Sans;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 56px;
+    line-height: 3.5rem;
     text-transform: capitalize;
 }
 .contactsForm-form h3 {
     color: #616161;
     font-family: Plus Jakarta Sans;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 2rem;
     letter-spacing: 0.88px;
 }
 .contactsForm-form-fields {
@@ -177,10 +177,10 @@ iframe {
     padding-left: 1rem;
     box-sizing: border-box;
     font-family: Plus Jakarta Sans;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 56px; /* 254.545% */
+    line-height: 3.5rem;
     letter-spacing: 2.09px;
 }
 .contactsForm-form-fields-info-2-nnea, .contactsForm-form-fields-info-2-nnea::before, .contactsForm-form-fields-info-2-nnea::after {
@@ -192,10 +192,10 @@ iframe {
     padding-left: 1rem;
     box-sizing: border-box;
     font-family: Plus Jakarta Sans;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 56px; /* 254.545% */
+    line-height: 3.5rem;
     letter-spacing: 2.09px;
 }
 
@@ -213,15 +213,15 @@ iframe {
     letter-spacing: 2.09px;
     padding-top: 1rem;
     resize: none;
-    line-height: 56px;
+    line-height: 3.5rem;
 }
 .contactsForm-form-fields-message::placeholder {
     color: rgba(48, 55, 63, 0.40);
     font-family: Plus Jakarta Sans;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 56px;
+    line-height: 3.5rem;
     letter-spacing: 2.09px;
 }
 .contactsForm-form-fields-message:focus::-webkit-input-placeholder {
@@ -242,18 +242,18 @@ iframe {
 .contactsForm-form-fields-info-2-nnea::placeholder {
     color: rgba(48, 55, 63, 0.40);
     font-family: Plus Jakarta Sans;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 56px;
+    line-height: 3.5rem;
     letter-spacing: 2.09px;
 }
 .contactsForm-form-fields-info-1-nnea::placeholder {
     color: rgba(48, 55, 63, 0.40);
     font-family: Plus Jakarta Sans;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 56px;
+    line-height: 3.5rem;
     letter-spacing: 2.09px;
 }

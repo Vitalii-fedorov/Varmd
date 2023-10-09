@@ -1,4 +1,5 @@
 import './Footer.css'
+import Link from "next/link";
 
 const Footer = () => {
     return (
@@ -29,17 +30,17 @@ const Footer = () => {
                 </div>
                 <div className="quicklines">
                     <ul className='quickList'><a className='quickList' href='#'>Quicklist</a>
-                    <li className='mt'><a className="quickText" href="#">Marble</a></li>
-                    <li><a className="quickText"href="#">About Us</a></li>
-                    <li><a className="quickText"href="#">Services</a></li>
+                    <li className='mt'><Link className="quickText" href={"/Products"}>Marble</Link></li>
+                    <li><Link className="quickText" href={"/AboutUs"}>About Us</Link></li>
+                    <li><Link className="quickText" href={"/Services"}>Services</Link></li>
                     </ul>
                 </div>
                 <div className="quicklines">
                     <ul className='quickList'><a className='quickList' href='#'>Our Services</a>
-                    <li className='mt'><a className="quickText" href="#">Product Sourcing</a></li>
-                    <li ><a className="quickText"href="#">OEM Operation</a></li>
-                    <li><a className="quickText"href="#">Quality Assurance</a></li>
-                    <li><a className="quickText"href="#">Freight  Forwarding</a></li>
+                    <li className='mt'><Link className="quickText" href={"/Services"}>Product Sourcing</Link></li>
+                    <li><Link className="quickText" href={"/Services/OEMOperation"}>OEM Operation</Link></li>
+                    <li><Link className="quickText" href={"/Services/QualityAssurance"}>Quality Assurance</Link></li>
+                    <li><Link className="quickText" href={"/Services/FreightForwarding"}>Freight Forwarding</Link></li>
                     </ul>
                 </div>
                 <div>
