@@ -31,7 +31,7 @@
 .tiles__text1 {
     color: #DCDCDC;
     font-family: Plus Jakarta Sans;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 800;
     letter-spacing: 2.85px;
     text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
@@ -40,11 +40,11 @@
 }
 
 .tiles__text2 {
-    margin-top: 40px;
+    margin-top: 2.5rem;
     color: #E6AF5D;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Plus Jakarta Sans;
-    font-size: 57px;
+    font-size: 3.5625rem;
     font-weight: 700;
     letter-spacing: 5.7px;
     text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
@@ -55,14 +55,14 @@
 .tiles__text3 {
     color: #DCDCDC;
     font-family: Plus Jakarta Sans;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     letter-spacing: 2.85px;
     max-width: 64%;
     margin-left: 18%;
-    margin-top: 40px;
+    margin-top: 2.5rem;
     text-align: initial;
     text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
 -webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
@@ -74,7 +74,7 @@
 }
 
 .mt{
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .services {
@@ -87,7 +87,7 @@
     height: 8.5rem;
     color: #30373F;
     font-family: Plus Jakarta Sans;
-    font-size: 56px;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -120,13 +120,13 @@
     width: 100%;
 }
 .banner img {
-    width: 6.25em;
-    height: 6.25em;
+    width: 6.25rem;
+    height: 6.25rem;
 }
 .banner p {
     color: #616161;
     font-family: Plus Jakarta Sans;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -136,7 +136,7 @@
 .banner h2 {
     color: #30373F;
     font-family: Plus Jakarta Sans;
-    font-size: 26px;
+    font-size: 1.625rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -146,7 +146,7 @@
 .banner a {
     color: #000;
     font-family: Plus Jakarta Sans;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -184,7 +184,7 @@
 .collection-text h1 {
     color: #30373F;
     font-family: Plus Jakarta Sans;
-    font-size: 56px;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -249,7 +249,7 @@
 .collection-bar-info h2 {
     color: #FFF;
     font-family: Plus Jakarta Sans;
-    font-size: 26px;
+    font-size: 1.625rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -270,7 +270,7 @@
 .collection-bar-info h4 {
     color: #E6AF5D;
     font-family: Plus Jakarta Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -280,7 +280,7 @@
 .collection-bar-info a {
     color: #F5F5F5;
     font-family: Plus Jakarta Sans;
-    font-size: 26px;
+    font-size: 1.625rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -310,7 +310,7 @@
 .collection-bar-info-wrapper span {
     color: #E6AF5D;
     font-family: Plus Jakarta Sans;
-    font-size: 14px;
+    font-size: 0.875em;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -328,7 +328,7 @@
     height: 8.5rem;
     color: #30373F;
     font-family: Plus Jakarta Sans;
-    font-size: 56px;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -362,7 +362,7 @@
 .process-bar-text p {
     color: #000;
     font-family: Plus Jakarta Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -372,7 +372,7 @@
     color: #E6AF5D;
     text-align: center;
     font-family: Plus Jakarta Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -380,4 +380,8 @@
 }
 .process-bar:nth-child(2) {
     margin-top: 10.5rem;
+}
+.process-bar img {
+    width: 6.25rem;
+    height: 6.25rem;
 }

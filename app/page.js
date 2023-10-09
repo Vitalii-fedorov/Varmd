@@ -75,7 +75,7 @@ export default function Home() {
               </div>
             </div>
             <div className="collection-bar">
-              <div className="collection-bar-image" style={{backgroundImage: "url('/OUTDOOR_PORCELAIN.png')"}}>
+              <div className="collection-bar-image" style={{backgroundImage: "url('/OUTDOOR_PORCELAIN.png')", backgroundSize: "cover"}}>
               </div>
             </div>
             <div className="collection-bar">
@@ -91,7 +91,7 @@ export default function Home() {
           </div>
           <div className="collection-bars-row">
           <div className="collection-bar">
-            <div className="collection-bar-image"style={{backgroundImage: "url('/Ceramic_Wall.png')"}}>
+            <div className="collection-bar-image"style={{backgroundImage: "url('/Ceramic_Wall.png')", backgroundSize: "cover"}}>
             </div>
           </div>
           <div className="collection-bar">
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
           </div>
           <div className="collection-bar">
-            <div className="collection-bar-image" style={{backgroundImage: "url('/mosaics.png')"}}>
+            <div className="collection-bar-image" style={{backgroundImage: "url('/mosaics.png')", backgroundSize: "cover"}}>
             </div>
           </div>
           </div>

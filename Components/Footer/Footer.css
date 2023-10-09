@@ -7,6 +7,11 @@
     position: absolute;
 }
 
+.ftMail img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
 .footerFlex{
     display: flex;
     align-items: center;
@@ -98,6 +103,11 @@
 .contact{
     display: flex;
     margin-top: 0.8125rem;
+}
+
+.contact img {
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .phoneMargin{

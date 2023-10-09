@@ -6,7 +6,7 @@ const Products = () => {
             <div className="marble">
                 <img src="/marbleboard.png" alt="marbleboard"/>
 
-                <div>
+                <div className="marbletl">
                     <div className="marbletiles">
                     <span className="marblelook">Marble look Tiles</span>
                     <p>Exclusive collection of Marble look tiles in various color

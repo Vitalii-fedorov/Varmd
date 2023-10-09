@@ -1,13 +1,12 @@
-import "./StoneLook.css"
+import "./product.css"
 
-const StoneLook = () => {
-    return(
-        <div>
+const Products = () => {
+    return(<div>
 
             <div className="marble">
                 <img src="/marbleboard.png" alt="marbleboard"/>
 
-                <div>
+                <div className="marbletl">
                     <div className="marbletiles">
                         <span className="marblelook">Marble look Tiles</span>
                         <p>Exclusive collection of Marble look tiles in various color
@@ -16,19 +15,19 @@ const StoneLook = () => {
 
                     <div className="formats">
                         Available formats (cm) -
-                        <div className="format">
+                        <div class="format">
                             <img src="/Ellipse.png" alt="Ellipse"/>30 x 60
                         </div>
-                        <div className="format">
+                        <div class="format">
                             <img src="/Ellipse.png" alt="Ellipse"/>60 x 60
                         </div>
-                        <div className="format">
+                        <div class="format">
                             <img src="/Ellipse.png" alt="Ellipse"/>60 x 120
                         </div>
-                        <div className="format">
+                        <div class="format">
                             <img src="/Ellipse.png" alt="Ellipse"/>80 x 80
                         </div>
-                        <div className="format">
+                        <div class="format">
                             <img src="/Ellipse.png" alt="Ellipse"/>120 x 120
                         </div>
                     </div>
@@ -237,4 +236,4 @@ const StoneLook = () => {
     );
 }
 
-export default StoneLook
+export default Products

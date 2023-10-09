@@ -1,8 +1,7 @@
-import "./OEMOperation.css"
+import "./services.css"
 
-const OEMOperation = () => {
-    return(
-        <div>
+const Services = () => {
+    return(<div>
 
             <div className="services-main">
                 <img src="/man-holding.png" alt="man-holding"/>
@@ -37,4 +36,4 @@ to all leading ports across the globe in a protected and momentary manner.</p>
     );
 }
 
-export default OEMOperation
+export default Services

@@ -1,7 +1,8 @@
 import "./aboutUs.css"
 
 const AboutUs = () => {
-    return(<div>
+    return(
+        <div>
             <div className="header-sec">
                 About Us
             </div>

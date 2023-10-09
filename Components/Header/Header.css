@@ -28,6 +28,10 @@ a{
     align-items: center;
     justify-content: space-between;
 }
+.topBar img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
 
 .infoBar{
     display: flex;

@@ -6,6 +6,7 @@
     width: 100%;
     height: 33.375rem;
     background-image: url('/marblebg3.png');
+    background-size: cover;
     color: #30373F;
     font-family: Plus Jakarta Sans;
     font-size: 3.75rem;
@@ -27,7 +28,7 @@
 }
 
 .aboutpageText{
-    margin-left: 116px;
+    margin-left: 7.25rem;
 }
 
 .mainText{
@@ -77,7 +78,7 @@
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 25px;
+    line-height: 1.5625rem;
     letter-spacing: 1.9px;
     margin-top: 1.25rem;
 }
@@ -96,7 +97,7 @@
 .coreText{
     color: #E6AF5D;
     font-family: Plus Jakarta Sans;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -117,7 +118,7 @@
     background-image: '/aboutbg.png';
     background-size: cover;
     width: 100%;
-    margin-top: 4.375em;
+    margin-top: 4.375rem;
 }
 
 .bannerListAbout {
@@ -156,7 +157,7 @@
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 1.75rem;
     letter-spacing: 1.52px;
 }
 
@@ -177,7 +178,7 @@
 .certTitle{
     color: #000;
     font-family: Plus Jakarta Sans;
-    font-size: 3.75em;
+    font-size: 3.75rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -185,10 +186,10 @@
 }
 
 .certText{
-    margin-top: 1.875em;
+    margin-top: 1.875rem;
     color: #616161;
     font-family: Plus Jakarta Sans;
-    font-size: 1.875em;
+    font-size: 1.875rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
