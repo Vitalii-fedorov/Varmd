@@ -121,5 +121,139 @@ iframe {
     height: 38rem;
 }
 .contactsForm {
+    display: flex;
+    justify-content: space-between;
     background-image: url('/formbg.png');
+}
+.contactsForm-form {
+    width: 43.375rem;
+    align-self: center;
+    margin-right: 6.75rem;
+}
+.contactsForm-form h2 {
+    color: #30373F;
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.contactsForm-form h3 {
+    color: #616161;
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.88px;
+}
+.contactsForm-form-fields {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+.contactsForm-form-fields-info {
+    display: flex;
+    column-gap: 1.5rem;
+}
+.contactsForm-form-fields-info-1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.contactsForm-form-fields-info-2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.contactsForm-form-fields-info-1-nnea, .contactsForm-form-fields-info-1-nnea::before, .contactsForm-form-fields-info-1-nnea::after {
+    width: 17.5rem;
+    height: 3.25rem;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 5px;
+    border: 2px solid #30373F;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 254.545% */
+    letter-spacing: 2.09px;
+}
+.contactsForm-form-fields-info-2-nnea, .contactsForm-form-fields-info-2-nnea::before, .contactsForm-form-fields-info-2-nnea::after {
+    width: 17.5rem;
+    height: 3.25rem;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 5px;
+    border: 2px solid #30373F;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 254.545% */
+    letter-spacing: 2.09px;
+}
+
+.contactsForm-form-fields-message {
+    width: 36.5rem;
+    height: 6rem;
+    border-radius: 5px;
+    border: 2px solid #30373F;
+    background: #F5F5F5;
+    padding-left: 1rem;
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2.09px;
+    padding-top: 1rem;
+    resize: none;
+    line-height: 56px;
+}
+.contactsForm-form-fields-message::placeholder {
+    color: rgba(48, 55, 63, 0.40);
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 2.09px;
+}
+.contactsForm-form-fields-message:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+.contactsForm-form-fields-message:focus::-moz-placeholder {
+    color: transparent
+}
+
+.contactsForm-form-fields-message:focus:-moz-placeholder {
+    color: transparent
+}
+
+.contactsForm-form-fields-message:focus:-ms-input-placeholder {
+    color: transparent
+}
+.contactsForm-form-fields-info-2-nnea::placeholder {
+    color: rgba(48, 55, 63, 0.40);
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 2.09px;
+}
+.contactsForm-form-fields-info-1-nnea::placeholder {
+    color: rgba(48, 55, 63, 0.40);
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 2.09px;
 }
