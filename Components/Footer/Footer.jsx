@@ -49,7 +49,7 @@ const Footer = () => {
                         <p className="aboutText">Times Square 2, <br></br> Sindhubhavan Ahmedabad, Gujarat, india. </p>   
                     </div>  
                         <div>
-                            <a href='#' className="phoneText">InfoVarmd.Com</a>
+                            <a href='#' className="phoneText">Info@Varmd.Com</a>
                         </div>
                 </div>
             </div> 
