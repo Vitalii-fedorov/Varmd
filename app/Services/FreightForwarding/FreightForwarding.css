@@ -43,7 +43,7 @@
 }
 .services-navigation {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 3.25rem 0;
@@ -93,6 +93,6 @@
     margin-left: 7%;
 }
 .services-main img {
-    width: 89.75rem;
-    height: 59.875rem;
+    width: 80rem;
+    height: 53rem;
 }

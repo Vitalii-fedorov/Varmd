@@ -1,4 +1,4 @@
-import "./services.css"
+import "./FreightForwarding.css"
 
 const Services = () => {
     return(<div>

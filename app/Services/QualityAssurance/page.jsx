@@ -1,4 +1,4 @@
-import "./services.css"
+import "./QualityAssurance.css"
 
 const Services = () => {
     return(<div>

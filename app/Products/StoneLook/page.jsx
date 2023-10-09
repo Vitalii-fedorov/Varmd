@@ -1,4 +1,4 @@
-import "./product.css"
+import "./StoneLook.css"
 
 const Products = () => {
     return(<div>

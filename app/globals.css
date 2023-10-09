@@ -97,6 +97,10 @@
   .marbletl p {
     align-self: center;
   }
+  .services-main img {
+    width: 80rem;
+    height: 45rem;
+  }
 }
 
 
@@ -105,7 +109,13 @@
   *{
     font-size: 13px;
   }
-
+  .sourcing p {
+    font-size: 1.5rem;
+  }
+  .services-main img {
+    width: 75rem;
+    height: 40rem;
+  }
 
 }
 
@@ -120,6 +130,10 @@
   *{
     font-size: 11px;
   }
+  .sourcing p {
+    font-size: 1.9rem;
+  }
+
 
 }
 
@@ -134,6 +148,10 @@
   *{
     font-size: 9px;
   }
+  .sourcing p {
+    font-size: 2.5rem;
+  }
+
 }
 
 @media (max-width: 718px) {
@@ -146,6 +164,9 @@
   *{
     font-size: 7px;
   }
+  .sourcing p {
+    font-size: 2.9rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -157,6 +178,9 @@
 @media (max-width: 496px) {
   *{
     font-size: 5px;
+  }
+  .sourcing p {
+    font-size: 3.3rem;
   }
 }
 
