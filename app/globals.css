@@ -319,6 +319,12 @@
   *{
     font-size: 10px;
   }
+  .hamburger-menu {
+    display: flex !important;
+  }
+  .headerMenu {
+    display: none;
+  }
   .email {
     width: 19.125rem !important;
   }
@@ -551,12 +557,6 @@
   .process-bar {
     height: 65rem !important;
   }
-  /*.process-bar-text p {
-    font-size: 1.7rem !important;
-  }
-  .process-bar-text span {
-    font-size: 1.7rem !important;
-  }*/
 }
 
 @media (max-width: 600px) {

@@ -27,6 +27,11 @@ const Header = () => {
                                 <Link href={'/'} className="logo">Varmd</Link>
                                 <p className="logoText">Uncomplicated & Transparent</p>
                             </div>
+
+
+
+
+
                             <nav className="headerMenu">
                                 <ul className="menuList">
                                     <li className="menuItem"><Link href={"/"} className="menu_link">Home</Link></li>
@@ -35,7 +40,48 @@ const Header = () => {
                                     <li className="menuItem"><Link href={"/Services"} className="menu_link">Services</Link></li>
                                     <li className="menuItem"><Link href={"/ContactUs"} className="menu_link">Contact Us</Link></li>
                                 </ul>
-                            </nav> 
+                            </nav>
+
+
+
+                            <div className="hamburger-menu headerMenu ">
+                                <input id="menu__toggle" type="checkbox" />
+                                <label className="menu__btn" htmlFor="menu__toggle">
+                                    <span></span>
+                                </label>
+                                <ul className="menu__box menuList">
+                                    <li className="menuItem"><Link href={"/"} className="menu__item">Home</Link></li>
+                                    <li className="menuItem"><Link href={"/AboutUs"} className="menu__item">About Us</Link></li>
+                                    <li className="menuItem"><Link href={"/Products"} className="menu__item">Products</Link></li>
+                                    <li className="menuItem"><Link href={"/Services"} className="menu__item">Services</Link></li>
+                                    <li className="menuItem"><Link href={"/ContactUs"} className="menu__item">Contact Us</Link></li>
+                                </ul>
+                            </div>
+
+
+
+
+
+
+
+
+                            {/*<div className="hamburger-menu">
+                                <input id="menu__toggle" type="checkbox" />
+                                <label className="menu__btn" htmlFor="menu__toggle">
+                                    <span></span>
+                                </label>
+                                <ul className="menu__box">
+                                    <li><a className="menu__item" href="#">Главная</a></li>
+                                    <li><a className="menu__item" href="#">Проекты</a></li>
+                                    <li><a className="menu__item" href="#">Команда</a></li>
+                                    <li><a class="menu__item" href="#">Блог</a></li>
+                                    <li><a class="menu__item" href="#">Контакты</a></li>
+                                </ul>
+                            </div>*/}
+
+
+
+
                         </div>    
                     </div>
                
