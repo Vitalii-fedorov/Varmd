@@ -448,8 +448,9 @@
 
 @media (max-width: 832px) {
   .bannerAbout {
-    width: 70% !important;
+    width: 75% !important;
     height: 50rem !important;
+
   }
   .bannerTitle {
     font-size: 2.5rem !important;
@@ -559,7 +560,32 @@
 }
 
 @media (max-width: 600px) {
+    .flex2 {
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 2rem;
+      text-align: center;
+    }
+  .certISO {
+    margin-top: -2rem !important;
+    margin-left: 0 !important;
+  }
+  .certImg {
+    width: 75% !important;
+    height: auto !important;
+  }
+}
 
+@media (max-width: 574px) {
+  .bannerAbout {
+    height: 75rem !important;
+  }
+  .exploreAbout {
+    height: 15rem !important;
+  }
+  .thirdText {
+    line-height: 2.5rem !important;
+  }
 }
 
 @media (max-width: 496px) {
@@ -568,6 +594,9 @@
   }
   .tiles__text3 {
     font-size: 50rem !important;
+  }
+  .aboutPhoto {
+    float: none !important;
   }
   .collection-bar-image::after {
     width: 8rem !important;
@@ -605,7 +634,12 @@
 
 @media (max-width: 360px) {
   *{
-    font-size: 4px;
+    font-size: 6px;
+  }
+  .bannerAbout {
+    width: 75% !important;
+    height: 90rem !important;
+
   }
   .banner {
     width: 80% !important;
@@ -690,6 +724,9 @@
     flex-direction: row;
     width: 86.5% !important;
 
+  }
+  .exploreAbout {
+    height: 21rem !important;
   }
 
 }
