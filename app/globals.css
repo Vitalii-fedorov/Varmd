@@ -93,7 +93,10 @@
 }
 
 @media (max-width: 1643px) {
+  .tiles__text {
 
+    width: 80% !important;
+  }
 }
 
 @media (max-width: 1550px) {
@@ -594,6 +597,10 @@
   .thirdText {
     line-height: 2.5rem !important;
   }
+  .tiles__text {
+
+    width: 90% !important;
+  }
 }
 
 @media (max-width: 496px) {
@@ -604,7 +611,7 @@
     top: 11px !important;
   }
   .tiles__text3 {
-    font-size: 50rem !important;
+    font-size: 2rem !important;
   }
   .aboutPhoto {
     float: none !important;
@@ -641,11 +648,22 @@
   .marker {
     font-size: 1.9rem !important;
   }
+  .tiles__text {
+
+    width: 100% !important;
+
+  }
+  .tiles__text3{
+    margin-left: 10% !important;
+  }
 }
 
 @media (max-width: 360px) {
   *{
     font-size: 6px;
+  }
+  .tiles__text3{
+    margin-left: 5% !important;
   }
   .menu__btn {
     top: 5px !important;

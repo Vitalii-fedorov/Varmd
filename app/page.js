@@ -13,10 +13,10 @@ export default function Home() {
 
             <div className="tiles__text3">
               <ul className='column'>
-                <li>Ceramic Tiles</li>
-                <li className='mt'>Porcelain Tiles</li>
-                <li>Quality Control</li>
-                <li className='mt'>Logistic Support</li>
+                <li className="tiles__text4">Ceramic Tiles</li>
+                <li className='mt tiles__text4'>Porcelain Tiles</li>
+                <li className="tiles__text4">Quality Control</li>
+                <li className='mt tiles__text4'>Logistic Support</li>
               </ul>
             </div>
         </div>
