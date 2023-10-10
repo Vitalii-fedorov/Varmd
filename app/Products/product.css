@@ -155,10 +155,10 @@
 }
 .ml-white-tiles, .ml-beige-tiles, .ml-grey-tiles, .ml-black-tiles, .ml-green-tiles {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 86.5%;
-    margin-left: 6.75%;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
 }
 .ml-white-tile,.ml-beige-tile, .ml-grey-tile, .ml-black-tile, .ml-green-tile {
     display: flex;
@@ -190,5 +190,12 @@
     line-height: normal;
     letter-spacing: 1.9px;
     margin-top: 0.75rem;
+}
+.ml-white-tiles-adapt, .ml-beige-tiles-adapt, .ml-grey-tiles-adapt, .ml-black-tiles-adapt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 86.5%;
+    margin-left: 6.75%;
 }
 

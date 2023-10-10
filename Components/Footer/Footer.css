@@ -44,7 +44,7 @@
 }
 
 .email{
-    width: 39.125rem;
+    width: 29.125rem;
     height: 2.6875rem;
     background: transparent;
     border: none;
@@ -132,6 +132,11 @@
 
 .width{
     width: 17.6875rem;
+}
+
+.quickl {
+    display: flex;
+    gap: 4rem;
 }
 
 .quickList{

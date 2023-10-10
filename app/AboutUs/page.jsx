@@ -8,7 +8,7 @@ const AboutUs = () => {
             </div>
                 <div className="aboutbg">
                     <div className="container mt">
-                        <div className="flex">
+                        <div className="flex1">
                             <div className="mainUs">
                                 <div className="video">
                                 <video className="video-player" controls>
@@ -32,7 +32,7 @@ const AboutUs = () => {
                         <div className="empowering">
                             <div className="bannerListAbout">
                                 <div className="bannerAbout">
-                                    <div>
+                                    <div className="bannerdiv">
                                     <h2 className="bannerTitle">Uncomplicated & Transparent Business</h2>
                                     <p className="bannerText">Our approach is uncomplicated and transparent, allowing our team to get the job done quickly and efficiently. <br /> <br />  Our sourcing services range from finding the best suppliers for your needs, to providing a range of other services. <br /> <br /> We are committed to helping you get the most out of your business.</p></div>
                                 </div>
@@ -60,7 +60,7 @@ const AboutUs = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex">
+                        <div className="flex2">
                             <img className="certImg" src="/certificate.png" alt="certificate" />
                             <div className="certISO">
                                 <h2 className="certTitle">ISO 9001:2015</h2>

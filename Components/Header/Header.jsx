@@ -22,7 +22,7 @@ const Header = () => {
             </div>
             <div className="navBar">
                     <div className="container">
-                        <div className="flex">
+                        <div className="flex4">
                             <div className="flexLogo">
                                 <Link href={'/'} className="logo">Varmd</Link>
                                 <p className="logoText">Uncomplicated & Transparent</p>

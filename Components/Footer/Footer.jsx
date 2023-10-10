@@ -28,23 +28,35 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="quicklines">
-                    <ul className='quickList'><a className='quickList' href='#'>Quicklist</a>
-                    <li className='mt'><Link className="quickText" href={"/Products"}>Marble</Link></li>
-                    <li><Link className="quickText" href={"/AboutUs"}>About Us</Link></li>
-                    <li><Link className="quickText" href={"/Services"}>Services</Link></li>
-                    </ul>
+
+
+                <div className="quickl">
+
+                    <div className="quicklines">
+                        <ul className='quickList'><a className='quickList' href='#'>Quicklist</a>
+                            <li className='mt'><Link className="quickText" href={"/Products"}>Marble</Link></li>
+                            <li><Link className="quickText" href={"/AboutUs"}>About Us</Link></li>
+                            <li><Link className="quickText" href={"/Services"}>Services</Link></li>
+                        </ul>
+                    </div>
+                    <div className="quicklines">
+                        <ul className='quickList'><a className='quickList' href='#'>Our Services</a>
+                            <li className='mt'><Link className="quickText" href={"/Services"}>Product Sourcing</Link></li>
+                            <li><Link className="quickText" href={"/Services/OEMOperation"}>OEM Operation</Link></li>
+                            <li><Link className="quickText" href={"/Services/QualityAssurance"}>Quality Assurance</Link></li>
+                            <li><Link className="quickText" href={"/Services/FreightForwarding"}>Freight Forwarding</Link></li>
+                        </ul>
+                    </div>
+
                 </div>
-                <div className="quicklines">
-                    <ul className='quickList'><a className='quickList' href='#'>Our Services</a>
-                    <li className='mt'><Link className="quickText" href={"/Services"}>Product Sourcing</Link></li>
-                    <li><Link className="quickText" href={"/Services/OEMOperation"}>OEM Operation</Link></li>
-                    <li><Link className="quickText" href={"/Services/QualityAssurance"}>Quality Assurance</Link></li>
-                    <li><Link className="quickText" href={"/Services/FreightForwarding"}>Freight Forwarding</Link></li>
-                    </ul>
-                </div>
+
+
+
+
+
+
                 <div>
-                    <div className='width'>
+                    <div className='width5'>
                         <h2 className='about'>Our Office</h2>
                         <p className="aboutText">Times Square 2, <br></br> Sindhubhavan Ahmedabad, Gujarat, india. </p>   
                     </div>  

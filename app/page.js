@@ -24,40 +24,64 @@ export default function Home() {
 
       <div className="services">
         <h1>Our Services</h1>
-        <div className="bannerList">
-        <div className="banner">
-        <div>
-          <div className="imgs"><img src="/product-sourcing.svg" alt="Product Sourcing" />
-            <img src="/product-sourcing.png" alt="Product Sourcing" /></div>
-          <h2>Product Sourcing</h2>
-          <p>Find trustworthy manufacturers to purchase your desired products ranges from, at a reasonable cost.</p></div>
-          <a href="#">Read More &#8594;</a>
-        </div>
-        <div className="banner">
-          <div>
-            <div className="imgs"><img src="/oem-operation.svg" alt="OEM Operation" />
-              <img src="/oem-operation.png" alt="OEM Operation" /></div>
-          <h2>OEM Operation</h2>
-          <p>VSource helps you to collaborate with the right manufacturer(s) who could match your OEM demands & parameters in terms of production capacity, capability, quality & pricing.</p></div>
-          <a href="#">Read More &#8594;</a>
-        </div>
-        <div className="banner">
-          <div>
-          <div className="imgs"><img src="/quality-assurance.svg" alt="Quality Assurance" />
-            <img src="/quality-assurance.png" alt="Quality Assurance" /></div>
-          <h2>Quality Assurance</h2>
-          <p>Stressed over the quality of your tiles while purchasing? Don’t worry, our quality control administrations are here to help you in keeping up with the quality of your brand by really taking a look at your items in the plant as per the acknowledgment quality breaking point (AQL) and giving you a nitty gritty report on regardless of whether this item is produced by your necessity or not.</p></div>
-          <a href="#">Read More &#8594;</a>
-        </div>
-        <div className="banner">
-          <div>
-            <div className="imgs"><img src="/freight-forwarding.svg" alt="Freight Forwarding" />
-              <img src="/freight-forwarding.png" alt="Freight Forwarding" /></div>
-          <h2>Freight Forwarding</h2>
-          <p>Our experienced team with extremely proficient forwarding services can diminish your supply chain issues & deliver your cargo to all leading ports across the globe in a protected and momentary manner.</p></div>
-          <a href="#">Read More &#8594;</a>
-        </div>
+
+
+
+        <div className="bannerList-glob">
+
+
+          <div className="bannerList">
+
+            <div className="banner">
+              <div>
+                <div className="imgs"><img src="/product-sourcing.svg" alt="Product Sourcing" />
+                  <img src="/product-sourcing.png" alt="Product Sourcing" /></div>
+                <h2>Product Sourcing</h2>
+                <p>Find trustworthy manufacturers to purchase your desired products ranges from, at a reasonable cost.</p></div>
+              <a href="#">Read More &#8594;</a>
+            </div>
+            <div className="banner">
+              <div>
+                <div className="imgs">
+                  <img src="/oem-operation.svg" alt="OEM Operation" />
+                  <img src="/oem-operation.png" alt="OEM Operation" /></div>
+                <h2>OEM Operation</h2>
+                <p>VSource helps you to collaborate with the right manufacturer(s) who could match your OEM demands & parameters in terms of production capacity, capability, quality & pricing.</p></div>
+              <a href="#">Read More &#8594;</a>
+            </div>
+
+          </div>
+
+
+
+
+
+          <div className="bannerList">
+
+            <div className="banner">
+              <div>
+                <div className="imgs"><img src="/quality-assurance.svg" alt="Quality Assurance" />
+                  <img src="/quality-assurance.png" alt="Quality Assurance" /></div>
+                <h2>Quality Assurance</h2>
+                <p>Stressed over the quality of your tiles while purchasing? Don’t worry, our quality control administrations are here to help you in keeping up with the quality of your brand by really taking a look at your items in the plant as per the acknowledgment quality breaking point (AQL) and giving you a nitty gritty report on regardless of whether this item is produced by your necessity or not.</p></div>
+              <a href="#">Read More &#8594;</a>
+            </div>
+            <div className="banner">
+              <div>
+                <div className="imgs"><img src="/freight-forwarding.svg" alt="Freight Forwarding" />
+                  <img src="/freight-forwarding.png" alt="Freight Forwarding" /></div>
+                <h2>Freight Forwarding</h2>
+                <p>Our experienced team with extremely proficient forwarding services can diminish your supply chain issues & deliver your cargo to all leading ports across the globe in a protected and momentary manner.</p></div>
+              <a href="#">Read More &#8594;</a>
+            </div>
+
+          </div>
+
+
+
+
       </div>
+
       </div>
 
       <div className="collection">
@@ -99,7 +123,7 @@ export default function Home() {
             <div className="collection-bar-info-wrapper">
               <h2>WOOD FINISHTILES</h2>
               <br/>​
-              <h5>Wood effect</h5><span> (pressed)</span> <br/><br/><h5>porcelain tiles suitable for <br/><br/>indoor walls & floors, with</h5> <br/><h4>Water absorption &lt;0.5%</h4> <br/><br/> <h5>In 2 sizes (cm) <br/><br/>20x120, 30x120  <br/><br/><br/>Surface options <br/><br/>Matt, Textured.</h5>
+              <h5>Wood effect</h5><span> (pressed)</span> <br/><br/><h5>porcelain tiles suitable for <br/><br/>indoor walls & floors, with</h5> <br/><h4>Water absorption &lt;0.5%</h4> <br/> <h5>In 2 sizes (cm) <br/><br/>20x120, 30x120  <br/><br/>Surface options <br/><br/>Matt, Textured.</h5>
             </div>
               <a href="#">browse collection &#62;</a>
             </div>
