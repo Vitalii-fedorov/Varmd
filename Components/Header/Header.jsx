@@ -1,7 +1,21 @@
+'use client'
 import './Header.css'
 import Link from "next/link";
+import React, { useEffect } from 'react';
 
 const Header = () => {
+    useEffect(() => {
+        const menuLinks = document.querySelectorAll('.menu__item');
+        const menuToggle = document.getElementById('menu__toggle');
+
+        menuLinks.forEach((link) => {
+            link.addEventListener('click', () => {
+                // Сбрасываем чекбокс в состояние "unchecked"
+                menuToggle.checked = false;
+            });
+        });
+    }, []); // Используем useEffect для того, чтобы код выполнялся после рендера компонента
+
     return (
         <div className="Header">
             <div className="bgTop">
@@ -44,7 +58,7 @@ const Header = () => {
 
 
 
-                            <div className="hamburger-menu headerMenu ">
+                            <div className="hamburger-menu">
                                 <input id="menu__toggle" type="checkbox" />
                                 <label className="menu__btn" htmlFor="menu__toggle">
                                     <span></span>
