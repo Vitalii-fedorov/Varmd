@@ -1,6 +1,5 @@
 "use client"
 import "./contactUs.css"
-import {GoogleMap, IntoWindowF, MarkerF, useJsApiLoader} from "@react-google-maps/api";
 
 const containerStyle = {
     width: "911px",
