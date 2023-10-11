@@ -53,7 +53,8 @@ const AboutUs = () => {
                                     </p>
                                         <ul className="bannerText" >Doing business with humanity in mind includes:
                                             <li className="marker">Meeting the needs of our clients and our team, while working towards a vision or purpose they also feel apart of.</li>
-                                            <li className="marker">Making decisions that consider ‘the bigger picture’ and how the consequences of these decisions will affect clients, suppliers, employees and the community in general.</li>
+                                            <li className="marker">Making decisions that consider &#39;the bigger picture&#39; and how the consequences of these decisions will affect clients, suppliers, employees and the community in general.</li>
+
                                             <li className="marker">Speaking to the hearts and minds of people through our products, services, actions and business values.</li>
                                         </ul>
                                     </div>
