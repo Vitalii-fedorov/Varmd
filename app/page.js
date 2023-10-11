@@ -156,7 +156,7 @@ export default function Home() {
               about nothing else !</p>
               <br/><br/>
             <p>Tiles are sourced from the <span>best
-              factories</span> & additionally, <span>Varmd's
+              factories</span> & additionally, <span>Varmd&#39;s
               QC team works independently at the
               factory</span> ensuring end to end compliance</p>
               <br/><br/>
