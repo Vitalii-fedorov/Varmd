@@ -175,6 +175,7 @@
 
 .flex1 {
     display: flex;
+    gap: 3rem;
 }
 
 .flex2 {
