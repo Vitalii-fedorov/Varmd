@@ -39,7 +39,7 @@
 }
 
 .aboutpageText{
-    margin-left: 7.25rem;
+
 }
 
 .mainText{
@@ -173,8 +173,13 @@
     letter-spacing: 1.52px;
 }
 
-.flex1, .flex2 {
+.flex1 {
     display: flex;
+}
+
+.flex2 {
+    display: flex;
+    width: 90%;
 }
 
 .marker {

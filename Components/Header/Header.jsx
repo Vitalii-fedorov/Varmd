@@ -42,10 +42,6 @@ const Header = () => {
                                 <p className="logoText">Uncomplicated & Transparent</p>
                             </div>
 
-
-
-
-
                             <nav className="headerMenu">
                                 <ul className="menuList">
                                     <li className="menuItem"><Link href={"/"} className="menu_link">Home</Link></li>
@@ -55,8 +51,6 @@ const Header = () => {
                                     <li className="menuItem"><Link href={"/ContactUs"} className="menu_link">Contact Us</Link></li>
                                 </ul>
                             </nav>
-
-
 
                             <div className="hamburger-menu">
                                 <input id="menu__toggle" type="checkbox" />
@@ -71,30 +65,6 @@ const Header = () => {
                                     <li className="menuItem"><Link href={"/ContactUs"} className="menu__item">Contact Us</Link></li>
                                 </ul>
                             </div>
-
-
-
-
-
-
-
-
-                            {/*<div className="hamburger-menu">
-                                <input id="menu__toggle" type="checkbox" />
-                                <label className="menu__btn" htmlFor="menu__toggle">
-                                    <span></span>
-                                </label>
-                                <ul className="menu__box">
-                                    <li><a className="menu__item" href="#">Главная</a></li>
-                                    <li><a className="menu__item" href="#">Проекты</a></li>
-                                    <li><a className="menu__item" href="#">Команда</a></li>
-                                    <li><a class="menu__item" href="#">Блог</a></li>
-                                    <li><a class="menu__item" href="#">Контакты</a></li>
-                                </ul>
-                            </div>*/}
-
-
-
 
                         </div>    
                     </div>

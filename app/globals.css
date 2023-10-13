@@ -62,10 +62,10 @@
 }
 
 @media (max-width: 1789px) {
-  .ml-white-tiles-adapt, .ml-beige-tiles-adapt, .ml-grey-tiles-adapt, .ml-black-tiles-adapt {
+  /*.ml-white-tiles-adapt, .ml-beige-tiles-adapt, .ml-grey-tiles-adapt, .ml-black-tiles-adapt {
     flex-direction: column !important;
     gap: 2rem;
-  }
+  }*/
   .products-main-page {
     width: 100%;
     overflow-x: hidden;
@@ -103,11 +103,11 @@
   *{
     font-size: 14px;
   }
-  .marble {
+  /*.marble {
     flex-direction: column;
     text-align: center;
     align-items: center;
-  }
+  }*/
   .marble img {
     width: 70rem;
     height: auto;
@@ -143,6 +143,13 @@
   .services-main img {
     width: 75rem;
     height: 40rem;
+  }
+  .marbleLookImg {
+    width: 60rem !important;
+    height: 46rem !important;
+  }
+  .marbletl {
+    row-gap: 1rem !important;
   }
 
 }
@@ -271,11 +278,22 @@
     overflow-x: hidden;
     overflow-y: hidden;
   }
+  .ml-white img, .ml-beige img, .ml-grey img, .ml-black img, .ml-green img {
+    width: 17rem !important;
+    height: 19.5rem !important;
+  }
+  .marbleLookImg {
+    width: 50rem !important;
+    height: 40rem !important;
+  }
 }
 
 @media (max-width: 1113px) {
   .flex1 {
     flex-direction: column;
+    align-items: center !important;
+    width: 100% !important;
+    justify-content: center !important;
   }
   .flex2 {
 
@@ -285,6 +303,13 @@
     height: 20rem;
   }
 
+}
+
+@media (max-width: 1095px) {
+  .marbleLookImg {
+    width: 40rem !important;
+    height: 35rem !important;
+  }
 }
 
 @media (max-width: 1072px) {
@@ -462,7 +487,15 @@
   .bannerAbout {
     width: 75% !important;
     height: 50rem !important;
-
+  }
+  .marble {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .marbleLookImg {
+    width: 80% !important;
+    height: auto !important;
   }
   .bannerTitle {
     font-size: 2.5rem !important;
@@ -498,6 +531,9 @@
 
   .sourcing p {
     font-size: 2.5rem;
+  }
+  .ml-green-tile {
+    margin-left: 0 !important;
   }
 
 }
@@ -535,6 +571,9 @@
   *{
 
   }
+  .certText {
+    font-size: 1.5rem !important;
+  }
   .sourcing p {
     font-size: 2.9rem;
   }
@@ -559,6 +598,10 @@
     width: 80% !important;
     height: 125rem !important;
   }
+  .ml-white img, .ml-beige img, .ml-grey img, .ml-black img, .ml-green img {
+    width: 13rem !important;
+    height: 14.911rem !important;
+  }
 }
 
 @media (max-width: 604px) {
@@ -572,17 +615,19 @@
 
 @media (max-width: 600px) {
     .flex2 {
-      flex-direction: column;
       align-items: center;
       padding-bottom: 2rem;
       text-align: center;
+      width: 95% !important;
+      gap: 1.5rem;
     }
   .certISO {
-    margin-top: -2rem !important;
+    margin-top: 2.5rem !important;
     margin-left: 0 !important;
+    width: 50%;
   }
   .certImg {
-    width: 75% !important;
+    width: 55% !important;
     height: auto !important;
   }
 }
@@ -601,11 +646,23 @@
 
     width: 90% !important;
   }
+  .ml-green-tiles {
+    /*margin-left: 3% !important;*/
+  }
 }
 
 @media (max-width: 496px) {
   *{
     font-size: 7px;
+  }
+  .ml-white img, .ml-beige img, .ml-grey img, .ml-black img, .ml-green img {
+    width: 10.5rem !important;
+    height: 12.0435rem !important;
+  }
+  .aboutPhoto {
+    width: 90% !important;
+    height: auto !important;
+    align-self: center !important;
   }
   .menu__btn {
     top: 11px !important;
@@ -656,11 +713,23 @@
   .tiles__text3{
     margin-left: 10% !important;
   }
+  .certTitle {
+    font-size: 3rem !important;
+  }
+}
+
+@media (max-width: 410px) {
+  .certText {
+    font-size: 1.3rem !important;
+  }
 }
 
 @media (max-width: 360px) {
   *{
     font-size: 6px;
+  }
+  .menu__box {
+    width: 55% !important;
   }
   .tiles__text3{
     margin-left: 5% !important;

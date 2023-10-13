@@ -4,7 +4,7 @@ const Products = () => {
     return(<div className="products-main-page">
 
             <div className="marble">
-                <img src="/marbleboard.png" alt="marbleboard"/>
+                <img src="/marbleboard.png" alt="marbleboard" className="marbleLookImg"/>
 
                 <div className="marbletl">
                     <div className="marbletiles">
@@ -15,19 +15,19 @@ const Products = () => {
 
                     <div className="formats">
                         Available formats (cm) -
-                        <div class="format">
+                        <div className="format">
                             <img src="/Ellipse.png" alt="Ellipse"/>30 x 60
                         </div>
-                        <div class="format">
+                        <div className="format">
                             <img src="/Ellipse.png" alt="Ellipse"/>60 x 60
                         </div>
-                        <div class="format">
+                        <div className="format">
                             <img src="/Ellipse.png" alt="Ellipse"/>60 x 120
                         </div>
-                        <div class="format">
+                        <div className="format">
                             <img src="/Ellipse.png" alt="Ellipse"/>80 x 80
                         </div>
-                        <div class="format">
+                        <div className="format">
                             <img src="/Ellipse.png" alt="Ellipse"/>120 x 120
                         </div>
                     </div>
