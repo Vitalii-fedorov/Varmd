@@ -64,7 +64,7 @@ export default function Home() {
                 <div className="imgs"><img src="/quality-assurance.svg" alt="Quality Assurance" />
                   <img src="/quality-assurance.png" alt="Quality Assurance" /></div>
                 <h2>Quality Assurance</h2>
-                <p>Stressed over the quality of your tiles while purchasing? Don’t worry, our quality control administrations are here to help you in keeping up with the quality of your brand by really taking a look at your items in the plant as per the acknowledgment quality breaking point (AQL) and giving you a nitty gritty report on regardless of whether this item is produced by your necessity or not.</p></div>
+                <p>Stressed over the quality of your tiles while purchasing? Don&#39;t worry, our quality control administrations are here to help you in keeping up with the quality of your brand by really taking a look at your items in the plant as per the acknowledgment quality breaking point (AQL) and giving you a nitty gritty report on regardless of whether this item is produced by your necessity or not.</p></div>
               <a href="#">Read More &#8594;</a>
             </div>
             <div className="banner">
@@ -156,7 +156,7 @@ export default function Home() {
               about nothing else !</p>
               <br/><br/>
             <p>Tiles are sourced from the <span>best
-              factories</span> & additionally, <span>Varmd's
+              factories</span> & additionally, <span>Varmd&#39;s
               QC team works independently at the
               factory</span> ensuring end to end compliance</p>
               <br/><br/>
