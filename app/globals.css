@@ -347,6 +347,7 @@
   *{
     font-size: 10px;
   }
+
   .hamburger-menu {
     display: flex !important;
   }
@@ -454,20 +455,19 @@
     flex-direction: column !important;
     gap: 3rem;
   }
-  .collection-bar {
-    width: 50rem !important;
-    height: 50rem !important;
+  .collection-bar-info a {
+    margin-top: 20%;
   }
   .collection-bar {
     width: 55rem !important;
     height: 55rem !important;
   }
   .collection-bar-info {
-    width: 55rem !important;
+    width: 100% !important;
     height: 55rem !important;
   }
   .collection-bar-image {
-    width: 55rem !important;
+    width: 100% !important;
     height: 55rem !important;
   }
   .collection-bar-info::before {
@@ -479,6 +479,9 @@
   }
   .collection-bar-info::after {
     width: 6rem !important;
+  }
+  .collection-bar-info-wrapper {
+    height: 100% !important;
   }
 
 }
