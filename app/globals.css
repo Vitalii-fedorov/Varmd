@@ -574,6 +574,10 @@
   *{
 
   }
+  .services-main img {
+      width: 60rem !important;
+      height: 40rem !important;
+  }
   .certText {
     font-size: 1.5rem !important;
   }
@@ -657,6 +661,10 @@
 @media (max-width: 496px) {
   *{
     font-size: 7px;
+  }
+  .services-main img {
+    width: 50rem !important;
+    height: 30rem !important;
   }
   .ml-white img, .ml-beige img, .ml-grey img, .ml-black img, .ml-green img {
     width: 10.5rem !important;
