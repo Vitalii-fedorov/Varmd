@@ -12,7 +12,7 @@ const AboutUs = () => {
                             <div className="mainUs">
                                 <div className="video">
                                 <video className="video-player" controls>
-                                    <source src="/cat.mp4"/>
+                                    <source src=""/>
                                 </video>
                                 </div>
                             </div>
